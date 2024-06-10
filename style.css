@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-size: 16px;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    transition: 0.5s;
+    margin: auto;
+    margin-bottom: 120px; /*расстояние внизу страницы*/
+}
+/*частоиспользуемые свойства*/
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zagolovik {
+    font-size: 24px;
+    font-weight: 600;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.color-orange{
+    color: #F4A900;
+}
+.background-orange {
+    background: #F4A900;
+}
+/*общее*/
+img {
+    width: 100%;
+}
+button {
+    background: #fff;
+}
+/*header*/
+.nav{
+    padding: 1.5rem 1rem 1.5rem 0;
+    border-bottom: 1px solid #000;
+}
+.korzina-open {
+    position: relative;
+}
+.header-icon {
+    width: 40px;
+}
+.header-kolichestvo {
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: -20%;
+    left: 70%;
+    padding: 4px 9px;
+}
+/*каталог*/
+.zagolovik-cataloga {
+    padding: 3rem 0;
+}
+.catalog {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 24px;
+}
+/*карточка товара в каталоге*/
+.item {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 1rem 1.5rem;
+}
+.item:hover {
+    background: #FADFAD;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.item-title{
+    font-weight: 600;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.item-button {
+    border-radius: 50px;
+}
+.item-button-img {
+    width: 22px;
+    height: 20px;
+    padding: 10px;
+}
+/*корзина*/
+.korzina-content {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 380px;
+    background-color: #fff;
+    height: 100vh;
+    transition: 0.5s;
+    border-left: 1px solid #000;
+}
+.active .korzina-content {
+    left: calc(100% - 380px);
+}
+.korzina-close {
+    padding: 2rem 1rem;
+}
+.korzina-close-img {
+    width: 30px;
+}
+/*карточка товара в корзине*/
+.kcard {
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    color: #fff;
+    font-size:0.8rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-bottom: 1px solid #000;
+}
+.count {
+    display: flex;
+    align-items: center;
+}
+.plus-minus {
+    height: 24px;
+    width: 36px;
+    background: #dcdcdc;
+}
+.value-kolichestvo {
+    margin: 0 1rem;
+}
+.name-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.korzina-trash {
+    background: #fff;
+    padding: 1rem 0;
+    margin: 0 0;
+    width: 80%;
+}
+/*итог корзины*/
+.korzina-itog {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.k-oplate {
+    display: flex;
+    margin-left: 1rem;
+}
+.total {
+    margin-left:1rem;
+    font-size: 24px;
+}
+.korzina-button {
+    width: 100%;
+    height: 70px;
+    margin-top: 1rem;
+    font-size: 20px;
+}
