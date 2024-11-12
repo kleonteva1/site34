@@ -20,56 +20,56 @@ let products = [
         id: 1,
         name: 'Крем-мёд<br>с манго и апельсином',
         name2: 'Крем-мёд с манго и апельсином',
-        image: '1.PNG',
+        image: '1.png',
         price: 400        
     },
     {
         id: 2,
         name: 'Крем-мёд<br>с черникой',
         name2: 'Крем-мёд с черникой',
-        image: '2.PNG',
+        image: '2.png',
         price: 300
     },
     {
         id: 3,
         name: 'Крем-мёд<br>с яблоком и корицей',
         name2: 'Крем-мёд с яблоком и корицей',
-        image: '3.PNG',
+        image: '3.png',
         price: 250
     },
     {
         id: 4,
         name: 'Крем-мёд<br>с облепихой',
         name2: 'Крем-мёд с облепихой',
-        image: '4.PNG',
+        image: '4.png',
         price: 300
     },
     {
         id: 5,
         name: 'Крем-мёд<br>с клубникой',
         name2: 'Крем-мёд с клубникой',
-        image: '5.PNG',
+        image: '5.png',
         price: 250
     },
     {
         id: 6,
         name: 'Крем-мёд<br>с имбирём и лимоном',
         name2: 'Крем-мёд с имбирём и лимоном',
-        image: '6.PNG',
+        image: '6.png',
         price: 250
     },
     {
         id: 7,
         name: 'Крем-мёд<br>с малиной',
         name2: 'Крем-мёд с малиной',
-        image: '7.PNG',
+        image: '7.png',
         price: 400
     },
     {
         id: 8,
         name: 'Крем-мёд<br>с чёрной смородиной',
         name2: 'Крем-мёд с чёрной смородиной',
-        image: '8.PNG',
+        image: '8.png',
         price: 300
     }
 ];
